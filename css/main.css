@@ -62,9 +62,24 @@ h4{
   line-height: 0;
 }
 
+.flex {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
 @media only screen and (min-width: 38em) {
 
 .browsing-images{
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+}
+
+@media only screen and (min-width: 60em) {
+
+  .flex {
+  grid-template-columns:  1fr 1fr;
+  }
+  /* .descriptions{
+    min-width: 50%;
+  } */
 }
