@@ -58,7 +58,13 @@ h4{
 .browsing-images{
   display:grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
   gap: 1rem;
   line-height: 0;
+}
+
+@media only screen and (min-width: 38em) {
+
+.browsing-images{
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
 }
