@@ -64,6 +64,9 @@ h4{
 
 .content{
   background-color: #EBE8DF;
+  padding: 1rem;
+
+  /* top right bottom left, clockwise */
 }
 
 .flex {
