@@ -1,16 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Antic+Didone&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Elsie&display=swap');
 
-@font-face {
+/* @font-face {
   font-family: Elsie;
   src: url(https://fonts.googleapis.com/css2?family=Elsie&display=swap);
-}
+} */
 
 html {
   box-sizing: border-box;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font-family: "Antic Didone", serif;
+  font-family: "Elsie", cursive;
   line-height: 1.5;
 }
 
@@ -46,9 +46,8 @@ body {
 
   .h1{
     font-family: 'Elsie', cursive;
-
   }
 
 .paragraph{
-  
+  font-family: 'Antic Didone', serif;
 }
